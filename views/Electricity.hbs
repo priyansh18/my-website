@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PayTime</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+      <div class="container1">
+          <header>
+            {{> navbar}}       
+          </header>
+      </div>
+       
+      <div class="container2">
+            {{> icons }}
+            <div class="white">
+                    <h2>Electricity-bill</h2>
+                    <label>  
+                          Electricity provider<br />  
+                          <input type="text" id="Electricity" list="providers">  
+                          <datalist id="providers">  
+                          <option value="Bses yamuna">  
+                          <option value="Adani electricity">  
+                          <option value="uppcl rural">   
+                          <option value="Uppcl urban">   
+                          <option value="Tppcl">   
+                          </datalist>  
+                      </label>  
+                      <br>
+                      <label>
+                          Consumer number:<br />
+                          <input type="tel" maxlength="12">
+                      </label>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-primary">Proceed to Recharge</button>
+            </div>
+            <div class="detail">
+                <h2>MAKE INSTANT ELECTRICITY BILL PAYMENT VIA PAYTIME!</h2>
+                <p>
+                      Your electricity bill payment gets easier with PAYTIME!. Trusted by over 27 million users, PAYTIME is your one-stop shop for online recharges and bill payments!
+  
+                      There are many online bill payment facilities provided by PAYTIME. Some of these include, scheduling payments on time, save the customer information for transaction in the future, and other different paying alternatives.
+                      
+                      Online payment eliminates any kind of hassles and ensures that bill payment is extremely easy. This is where PAYTIME comes in and greatly reduces your difficulties. We facilitate online electricity bill payment for major service providers including Reliance Energy, NDPL, BESCOM, Jodhpur Vidyut Nigam Limited and others.
+                </p>
+                <h2>WHY PAY ELECTRICITY BILLS WITH PAYTIME?</h2>
+                <p>
+                      You can save a lot of valuable time by paying your electricity bill online with PAYTIME. You could be socialising with friends, sitting in an office meeting, or simply relaxing at home; just pick up your mobile or laptop, fill your basic information, and pay your bill in a snap! You get an option to save your transaction details. This means you do not have to re-enter information every time you have to pay your electricity bill.
+  
+                      PAYTIME is fully secure with the latest 128-bit encryption technology. All your card details and other information are completely safe. You can also deposit money in your account and use it for subsequent payments. Also, you can get your payment updates via email.
+                </p>
+                <h2> To Pay Electricity Bill Online</h2>
+                <p>
+                      Wherever you are, pay electricity bill online following easy steps. Just log in to Paytm.com, fill the requisite form & amount and there you go! To help you with the online payment process, we bring to you the steps-
+                      <br>
+                      <ul>
+                              1. Click on the electricity board
+                              2. You will get a drop down of all the states
+                              3. Select your state
+                              4. Pick your electricity board
+                              5. Fill in your consumer number
+                              6. Enter the amount
+                              7. Pick electricity bill payment promo codes of your choice and get Cashback & other offers
+                              8. Choose the payment method of your preference. 
+                      </ul>
+                          
+                </p>
+            </div>
+      </div>  
+      <div class="container3">
+          <footer class="page-footer font-small blue">
+  
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2019 Copyright:
+              <a href="https://mdbootstrap.com/education/bootstrap/"> PayTime.com</a>
+            </div>
+            <!-- Copyright -->
+          
+          </footer>
+      </div>
+</body>
+</html>
